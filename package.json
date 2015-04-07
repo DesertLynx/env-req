@@ -1,0 +1,19 @@
+{
+  "name": "env-require",
+  "version": "1.0.0",
+  "description": "A means to check that environment variables are defined",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony test",
+    "watch": "nodemon --exec 'npm test'"
+  },
+  "author": "David Porter",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  }
+}
